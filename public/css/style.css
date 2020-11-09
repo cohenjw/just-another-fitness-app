@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Roboto+Mono:wght@600&family=Sniglet&family=Wallpoet&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+
+/* Header */
+header {
+
+}
+
+
+/* Welcome */
+#welcome {
+	height: 100%;
+	background: url('../img/background.jpg') no-repeat center;
+	background-size: cover;
+}
+
+#welcome-logo {
+	padding: 3%;
+	color: rgb(224, 224, 224);
+}
+
+#welcome-logo span {
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: max(0.88vw, 7.8px);
+}
+
+#welcome-logo span:first-of-type {
+	display: inline-block;
+	font-family: Wallpoet, sans-serif;
+	font-size: max(4vw, 36px);
+	border-bottom: 5px solid rgb(224, 224, 224);
+}
+
+#welcome-logo span:last-of-type {
+	display: block;
+	padding-top: .5%;
+}
