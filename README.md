@@ -1,3 +1,7 @@
+## About JAFA
+JAFA "Just Another Fitness App" is a project with me to get more experience in PHP and to learn the Laravel framework.
+The goals of project will have authentication, the ability for users to track fitness related statistics on their profile, private message other users, and communicate via a forum.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
