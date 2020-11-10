@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-family: 'Roboto Mono', sans-serif;
+}
+
+
+/* Header */
+header {
+
+}
+
+
+/* Footer */
+footer {
+	display: flex;
+	justify-items: center;
+	height: 10rem;
+	padding: 2rem 5rem;
+	background-color: #020202;
+	color: #dbdbdb;
+}
+
+footer > div {
+	display: inline-block;
+}
+
+footer a {
+	text-decoration: none;
+	color: #555
+}
+
+footer a:hover {
+	text-decoration: underline;
+	text-decoration-color: #dbdbdb;
+}
+
+footer ul {
+	margin: 0 2rem;
+	list-style: none;
+}
+
+footer ul li:first-of-type  {
+	padding-bottom: 0.5rem;
+}
+
+#footer-logo {
+	background: url('../img/logo.svg') no-repeat;
+	background-size: contain;
+	height: 7.5rem;
+	width: 15rem;
+}
+
+#footer-legal {
+	color: #555
+}
