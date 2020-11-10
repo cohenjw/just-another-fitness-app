@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Roboto+Mono:wght@600&family=Sniglet&family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 
 body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
+	font-family: 'Roboto Mono', sans-serif;
 }
 
 
@@ -15,29 +16,47 @@ header {
 
 /* Welcome */
 #welcome {
-	height: 100%;
+	height: 100vh;
+	padding: 7.5rem;
 	background: url('../img/background.jpg') no-repeat center;
 	background-size: cover;
 }
 
-#welcome-logo {
-	padding: 3%;
-	color: rgb(224, 224, 224);
+#full-logo {
+	background: url('../img/full-logo.svg') no-repeat;
+	background-size: contain;
+	width: 20rem;
+	height: 12.5rem;
 }
 
-#welcome-logo span {
-	font-family: 'Roboto Mono', sans-serif;
-	font-size: max(0.88vw, 7.8px);
+#welcome-login-btns {
+	display: flex;
+	width: 20rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-#welcome-logo span:first-of-type {
-	display: inline-block;
-	font-family: Wallpoet, sans-serif;
-	font-size: max(4vw, 36px);
-	border-bottom: 5px solid rgb(224, 224, 224);
+#welcome-login-btns a {
+	width: 10rem;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-decoration: none;
+	color: #dbdbdb;
+	background-color: rgb(224, 224, 224, 0.15);
+	border: 3px solid rgb(224, 224, 224);
+	border-radius: 10px;
+	transition: background-color .1s;
 }
 
-#welcome-logo span:last-of-type {
-	display: block;
-	padding-top: .5%;
+#welcome-login-btns a:hover {
+	background-color: rgb(224, 224, 224, 0.5);
+}
+
+
+@media screen and (orientation: portrait) {
+	#full-logo, #welcome-login-btns {
+		margin: 0 auto;
+	}
 }

@@ -2,11 +2,10 @@
 
 @section('content')
 <div id="welcome">
-	<div id="welcome-logo">
-		<span>JAFA</span>
-		<span>Just Another Fitness App</span>
+	<div id="full-logo"></div>
+	<div id="welcome-login-btns">
+		<a href="#">Sign in</a>
+		<a href="#">Register</a>
 	</div>
-
-	
 </div>
 @endsection

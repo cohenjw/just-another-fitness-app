@@ -11,12 +11,6 @@
 
         <!-- Styles -->
 		<link rel="stylesheet" href={{ URL::asset('css/style.css') }}>
-		
-        <style>
-            body {
-                font-family: 'Nunito';
-            }
-        </style>
     </head>
     <body>
 		<header>
