@@ -9,12 +9,13 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
-		<link rel="stylesheet" href={{ URL::asset('css/style.css') }}>
+		<!-- Styles -->
+		@yield('css')
+		<!-- TEMP? --> <link rel="stylesheet" href={{ URL::asset('css/style.css') }}>
     </head>
     <body>
 		<header>
-			@if (Route::currentRouteName() === 'welcome')
+			@if (Route::currentRouteName() === 'home')
 				
 			@else
 				
