@@ -1,6 +1,5 @@
 footer {
 	display: flex;
-	justify-items: center;
 	height: 10rem;
 	padding: 2rem 5rem;
 	background-color: #020202;
@@ -31,7 +30,7 @@ footer ul li:first-of-type  {
 }
 
 #footer-logo {
-	background: url('../img/logo.svg') no-repeat;
+	background: url('../img/logo-white.svg') no-repeat;
 	background-size: contain;
 	height: 7.5rem;
 	width: 15rem;

@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-route::post('/register', function() {
+route::get('/register', function() {
 	return view('register');
 })->name('register');
