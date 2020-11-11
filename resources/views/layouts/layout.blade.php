@@ -4,10 +4,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>JAFA - {{ ucfirst(Route::currentRouteName()) }}</title>
+		<title>JAFA - {{ ucfirst(Route::currentRouteName()) }}</title>
+		
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
 
 		<!-- Styles -->
+		<style>
+			html, body {
+				width: 100vw;
+				height: 100vh;
+				margin: 0px;
+				padding: 0px;
+				font-family: 'Roboto Mono', sans-serif;
+			}
+		</style>
+
 		@yield('css')
+
 		<link rel="stylesheet" href={{ URL::asset('css/layout.css') }}>
 		<link rel="stylesheet" href={{ URL::asset('css/footer.css') }}>
     </head>
